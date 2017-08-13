@@ -1,6 +1,6 @@
 #include <stdio.h> 
 #include <stdlib.h> 
-#include<time.h>
+#include <time.h>
 
 //stdlib for srand() and rand().
 
@@ -102,8 +102,8 @@ void print()
 //Main function
 int main()
 {
-int seed=time(NULL);
-srand(seed);
+	int seed=time(NULL);
+	srand(seed);
 	ID_Assignment();
 	Arrival_Assignment();
 	NBurst_Assignment();
