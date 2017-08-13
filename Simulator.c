@@ -64,7 +64,7 @@ void NBurst_Assignment()
 	int i;
 
 	for (i = 0; i < 10; ++i)
-		process [i][2] = randomnumber(rand()%99+1);
+		process [i][2] = randomnumber();
 		//Prime numbers are ideal for introducing randomness
 		//from what I've learned.
 }
